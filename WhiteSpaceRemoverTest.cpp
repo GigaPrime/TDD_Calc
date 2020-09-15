@@ -1,5 +1,6 @@
 #include "WhiteSpaceRemoverTest.h"
 using namespace testing;
+
 TEST_F(WhitespaceRemoverTest, removeSingleWhiteSpaceAtStringFront)
 {
 	ASSERT_THAT(whitespaceRemover->removeWhitespace(" 1"), Eq("1"));

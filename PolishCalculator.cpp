@@ -4,8 +4,9 @@
 double PolishCalculator::compute(const std::string expression)
 {
 	//Tokenize expression
-	//	Remove whiteSpaces, validate chars
+	//	Validate chars
 
+	//  Read Whitespace state
 	//	Read Operand State
 	//	Read Operator State
 

@@ -6,6 +6,5 @@
 class WhitespaceRemoverTest : public testing::Test
 {
 public:
-	IWhitespaceRemover* whitespaceRemover = new WhitespaceRemover(" \t");
-	
+	std::unique_ptr<IWhitespaceRemover> whitespaceRemover = std::make_unique<WhitespaceRemover>(" \t");
 };

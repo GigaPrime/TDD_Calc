@@ -4,5 +4,5 @@
 class IWhitespaceRemover
 {
 public:
-	virtual const std::string removeWhitespace(const std::string expression) = 0;
+	virtual const std::string removeWhitespace(const std::string& expression) = 0;
 };
