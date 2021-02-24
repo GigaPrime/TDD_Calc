@@ -4,5 +4,5 @@
 class Tokenizer : public ITokenizer
 {
 public:
-	std::vector<std::string> tokenizeExpression(const std::string expression) override;
+	virtual std::vector<std::string> tokenizeExpression(std::string& expression);
 };
